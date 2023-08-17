@@ -1,0 +1,27 @@
+form {
+    
+   
+    
+}
+
+form label {
+    display: flex;
+    font-size: 16px;
+}
+
+form input {
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 500px;
+}
+
+form textarea {
+    margin-top: 0;
+    height: 100px;
+    width: 500px;
+
+}
+
+form button {
+   margin-top: 20px;
+}

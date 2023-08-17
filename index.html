@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" required />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" pattern=".+@globex\.com" size="30" required />
+            </div>
+            <div>
+                <label for="form-message">Your message:</label>
+                <textarea id="form-message" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>  
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
